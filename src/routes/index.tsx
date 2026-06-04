@@ -57,7 +57,7 @@ function Home() {
               <div className="w-8 h-8 rounded-lg bg-indigo-600 flex items-center justify-center">
                 <Zap size={16} className="text-white" />
               </div>
-              <span className="font-bold text-xl text-slate-900 tracking-tight">HR Datacol</span>
+              <span className="font-bold text-xl text-slate-900 tracking-tight">HRple</span>
             </div>
 
             <div className="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600">
@@ -128,7 +128,7 @@ function Home() {
             </h1>
 
             <p className="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto mb-10 leading-relaxed">
-              HR Datacol centraliza nómina, certificaciones, ausencias y más en una sola
+              HRple centraliza nómina, certificaciones, ausencias y más en una sola
               plataforma segura. Reduce carga operativa en RRHH y mejora la
               experiencia de cada colaborador.
             </p>
@@ -165,10 +165,10 @@ function Home() {
             {/* Stat Pills */}
             <div className="flex flex-wrap justify-center gap-6 text-white">
               {[
-                { value: '+500', label: 'empresas activas' },
+                { value: 'Sistema', label: 'Multi-empresa' },
                 { value: '99.9%', label: 'uptime garantizado' },
                 { value: '5 módulos', label: 'integrados' },
-                { value: 'ISO 27001', label: 'en camino' },
+                { value: 'Soporte', label: 'Personalizado' }
               ].map(({ value, label }) => (
                 <div key={label} className="text-center">
                   <div className="text-2xl font-black text-white">{value}</div>
@@ -196,7 +196,7 @@ function Home() {
       </section>
 
       {/* ── LOGOS / TRUST ──────────────────────────────────────── */}
-      <section className="bg-slate-50 py-12 px-4">
+      {/*<section className="bg-slate-50 py-12 px-4">
         <div className="max-w-5xl mx-auto text-center">
           <p className="text-sm font-semibold text-slate-400 uppercase tracking-widest mb-8">
             Con la confianza de líderes del sector
@@ -209,7 +209,7 @@ function Home() {
             ))}
           </div>
         </div>
-      </section>
+      </section>*/}
 
       {/* ── FEATURES ───────────────────────────────────────────── */}
       <section id="features" className="py-24 px-4 bg-white">
@@ -336,7 +336,7 @@ function Home() {
               Lo que dicen nuestros clientes
             </h2>
             <p className="text-slate-500 text-lg max-w-xl mx-auto">
-              Empresas de distintos sectores ya transformaron su operación de RRHH con HR Datacol.
+              Empresas de distintos sectores ya transformaron su operación de RRHH con HRple.
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-6">
@@ -408,7 +408,7 @@ function Home() {
                 <div className="w-8 h-8 rounded-lg bg-indigo-600 flex items-center justify-center">
                   <Zap size={16} className="text-white" />
                 </div>
-                <span className="font-bold text-xl text-white">HR Datacol</span>
+                <span className="font-bold text-xl text-white">HRple</span>
               </div>
               <p className="text-sm leading-relaxed mb-5">
                 Plataforma B2B para automatizar la gestión administrativa entre empresa y empleado. Multi-tenant, segura y lista para escalar.
@@ -418,7 +418,7 @@ function Home() {
                   <Phone size={14} /> +57 601 800 0000
                 </a>
                 <a href="mailto:databoardcol@gmail.com" className="flex items-center gap-2 hover:text-white transition-colors">
-                  <Mail size={14} /> hola@HR Datacol.co
+                  <Mail size={14} /> hola@HRple.co
                 </a>
                 <span className="flex items-center gap-2">
                   <MapPin size={14} /> Bogotá D.C., Colombia
@@ -493,7 +493,7 @@ function Home() {
           </div>
 
           <div className="border-t border-slate-800 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-slate-600">
-            <p>© 2026 HR Datacol S.A.S. Todos los derechos reservados. NIT: 900.000.000-0</p>
+            <p>© 2026 HRple S.A.S. Todos los derechos reservados. NIT: 900.000.000-0</p>
             <div className="flex gap-4">
               <a href="#" className="hover:text-slate-400 transition-colors">Privacidad</a>
               <a href="#" className="hover:text-slate-400 transition-colors">Términos</a>
