@@ -415,10 +415,10 @@ function Home() {
               </p>
               <div className="flex flex-col gap-2 text-sm">
                 <a href="tel:+576018000000" className="flex items-center gap-2 hover:text-white transition-colors">
-                  <Phone size={14} /> +57 601 800 0000
+                  <Phone size={14} /> +57 310 325 86 00
                 </a>
                 <a href="mailto:databoardcol@gmail.com" className="flex items-center gap-2 hover:text-white transition-colors">
-                  <Mail size={14} /> hola@HRple.co
+                  <Mail size={14} /> databoardcol@gmail.com
                 </a>
                 <span className="flex items-center gap-2">
                   <MapPin size={14} /> Bogotá D.C., Colombia
